@@ -1,0 +1,31 @@
+@charset "UTF-8";
+#content{width: 1423px;}
+.goodtotal table td,th{text-align: center;font-size: 16px}
+.title,.goodtotal{width: 1200px;margin: 0 auto;position: relative}
+.title{overflow: hidden;height: auto}
+.title span{font-size: 16px;font-weight: bold;float: left}
+
+.chose{}
+.cell1{width:300px;text-align: left;padding: 0 20px}
+.cell1 .goods-info a{display:inline-block;float: left;border: 1px solid #ededed}
+.goods-info{overflow: hidden;height: auto;padding: 20px 20px}
+.goods-info span{font-size: 12px;display: block;margin-bottom: 10px }
+.color-suit{float: left}
+.color-suit dl{font-size: 12px;margin-bottom: 10px;overflow: hidden;height: auto}
+.color-suit dd{padding-left: 20px}
+.color-suit dd,dt{float: left}
+.color-suit dt{color: #999}
+.cell2{width: 181px}
+.cell3{width: 133px}
+.cell4{width: 151px}
+
+.buy-number{overflow: hidden;height: auto;padding-left: 30px}
+.buy-number li{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;font-size: 16px;border: 1px solid #ededed}
+.add,.reduce{cursor: pointer}
+
+
+
+.submit{width: 140px;height: 50px;border: 1px solid #ededed;border-radius: 2px;background: #c00;
+font-size: 22px;cursor: pointer;color: white;position: absolute;right: 250px;bottom: 0}
+
+
