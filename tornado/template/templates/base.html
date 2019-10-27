@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}首页{% end %}</title>
+    <link rel="stylesheet" href="{{ static_url('css/base.css') }}">
+    {% block extcss %}
+    {% end %}
+</head>
+<body>
+<header>
+    {% block head %}
+
+    {% end %}
+</header>
+<div>
+    {% block contennt %}
+
+    {% end %}
+</div>
+<footer>
+    {% block foot %}
+
+    {% end %}
+</footer>
+<script src="{{ static_url('js/base.js') }}"></script>
+{% block extjs %}
+
+{% end %}
+</body>
+</html>

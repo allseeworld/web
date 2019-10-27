@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>模板语言</h2>
+    <hr>
+{#  注释  #}
+<p>{{ name }}</p>
+<p>{{ age }}</p>
+<p>{{ likes }}</p>
+<p>{{ user["身高"] }}</p>
+
+{% if age < 18 %}
+    <p>{{ name }}才{{ age }}</p>
+    {% elif age<35 %}
+    <p>{{ name }}已经{{ age }},可以继承家产了</p>
+    {% else %}
+    <p>{{ name }}已经老了</p>
+    {% end %}
+{% for like in likes %}
+<b>{{like}}</b>
+{% end %}
+    <hr>
+{% for i in range(10) %}
+<b>{{i}}</b>
+{% end %}
+    <hr>
+{% for i in [i*i for i in range(10)] %}
+<b>{{i}}</b>
+{% end %}
+</body>
+</html>
